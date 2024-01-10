@@ -1,18 +1,17 @@
-# Host a static resume with AWS
+# Host a static resume on AWS
 
 In this project, I've divided the tasks into three main parts:
 
 ## Part 1:
-- Develop HTML, CSS, and JavaScript code for my resume.
-- Upload the files to an S3 bucket.
-- Configure S3 to host a static website accessible to the public.
+- Write HTML, CSS, and JavaScript code for my resume.
+- Upload the files to a Simple Storage Service S3 bucket configured beforehand for static website hosting with public access.
 
 ## Part 2:
-- Acquire a domain name using Route 53.
+- Set up a custom domain using Route 53.
 - Update DNS records to direct to the S3 website endpoint.
 
 ## Part 3:
-- Implement SSL/HTTPS using AWS Certificate Manager.
-- Establish a CloudFront distribution for the project.
+- Set up aTLS/SSL certificate using AWS Certificate Manager (ACM).
+- Establish a CloudFront distribution (that points to the files in S3).
 
 AWS Services: S3 · CloudFront · Route 53
