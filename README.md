@@ -1,5 +1,9 @@
 # Host a static resume on AWS
 
+<img src="img/01.png" alt="resume" />
+Simple resume hosted on AWS utilizing S3, CloudFront, Certificate Manager, and Route 53.
+
+#
 In this project, I've divided the tasks into three main parts:
 
 ## Part 1:
@@ -10,13 +14,12 @@ In this project, I've divided the tasks into three main parts:
 - Set up a custom domain using Route 53.
 - Update DNS records to direct to the S3 website endpoint.
 
+<img src="img/02.png" alt="part2" width="600"/>
+
 ## Part 3:
 - Set up aTLS/SSL certificate using AWS Certificate Manager (ACM).
 - Establish a CloudFront distribution (that points to the files in S3).
 
 #
-<img src="img/01.png" alt="drawing" />
-Simple resume hosted on AWS utilizing S3, CloudFront, Certificate Manager, and Route 53.
-
 #
 AWS Services: S3 · Route 53 · CloudFront · ACM
