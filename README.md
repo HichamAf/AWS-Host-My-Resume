@@ -14,4 +14,7 @@ In this project, I've divided the tasks into three main parts:
 - Set up aTLS/SSL certificate using AWS Certificate Manager (ACM).
 - Establish a CloudFront distribution (that points to the files in S3).
 
+#
+<img src="img/Screenshot_01.png" alt="drawing" width="200"/>
+
 AWS Services: S3 · Route 53 · CloudFront · ACM
