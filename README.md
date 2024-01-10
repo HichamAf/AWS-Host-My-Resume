@@ -15,6 +15,8 @@ In this project, I've divided the tasks into three main parts:
 - Establish a CloudFront distribution (that points to the files in S3).
 
 #
-<img src="img/Screenshot_01.png" alt="drawing" width="200"/>
+<img src="img/01.png" alt="drawing" />
+Simple resume hosted on AWS utilizing S3, CloudFront, Certificate Manager, and Route 53.
 
+#
 AWS Services: S3 · Route 53 · CloudFront · ACM
